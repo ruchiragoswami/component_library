@@ -1,44 +1,43 @@
-body {
-    box-sizing : border-box; 
-}
+@import "../for-import/reset.css";
+@import "../for-import/colors.css";
 
 .alert {
     width: 500px;
-    height: 50px; 
-    background-color: lightpink
-    ;
-    color: red;
-    /* font-size: 2rem; */
-    /* padding-top: 1.1rem ; */
-    /* border: 1px solid red; */
-}
-
-.message-alert {
-    color: maroon;
-    /* border: 1px solid gold;  */
-    font-size: 1.2rem;
+    height: 50px;
     display: flex;
     align-items: center;
+    margin-bottom: 2rem;
 }
+
+
+.error {
+    background-color: #FEE2E2;
+    color: maroon;
+}
+
 .our-style {
     /* border: 1px solid blue; */
     font-size: 2rem;
-    /* padding-top: 1rem; */
-    /* margin: 1rem; */
+    margin-left: 1rem;
 }
 
-.message-warning {
-    border: 1px solid pink;
-    background-color: lightgreen; 
+.warning{
+    background-color: #f0e7c3;
+
 }
 
 .icon-warning {
-    border: 1px solid black; 
-    padding-right: 0; 
+    border: 1px solid black;    
 }
+
+.success {
+    background-color: #D1FAE5;
+}
+
 
 
 span {
     margin-left: 1rem;
-    border: 1px solid blue; 
+    font-size: 1.2rem;
+    /* border: 1px solid blue;  */
 }
