@@ -51,12 +51,76 @@ body {
     padding: 0.3rem;
 }
 
+
+/* ########################## */
 /* styles for this page to keep elements separate from each other */
 
 section {
     margin: 3rem;
 }
-
+/* 
 span, img{
     margin: 0.5rem;
+} */
+
+
+/*  ################################ */
+
+/* Badge styles */
+
+/* ***** Styles for badge regular ****** */
+.badge-regular {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 9.1rem;
+    top: 0;
+
+}
+
+/* ***** Styles for large badge ****** */
+
+.badge-large {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 11.5rem;
+    top: 0;
+}
+
+/* ***** Styles for badge with button ****** */
+
+button {
+    width: 7rem;
+    height: 2rem;
+    background-color: rgb(184, 240, 184);
+    margin-left: 2rem;
+}
+
+.badge-button {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    right: 10rem;
+}
+
+
+/* ***** Styles for icon with a badge ****** */
+
+.someText {
+    margin: 2rem 0;
+    padding: 1rem;
+    width: 25rem;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.img-home {
+    width: 3rem;
+    height: 3rem;
+}
+
+.badge-icon {
+    left: 11.8rem;
 }
