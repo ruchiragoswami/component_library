@@ -126,14 +126,26 @@ span {
 }
 
 .badge-on-icon  {
+    width: 4.5rem;
+    /* height: 100px; */
     /* font-size: 2rem; */
-    border: 1px solid green; 
+    /* border: 1px solid green;  */
+    position: relative; 
+}
+
+.num-icon {
+    height: 1.5rem;
+    width: 1.5rem; 
+    position: absolute; 
+    top: 0;
+    right: 0; 
+}
+
+#icon-mail-large {
+    font-size:3rem;
 }
 
 
-.icon-for-num {
-    display: block;
-    height: 3rem;
-   
-    font-size: 2rem;
+#icon-text-large {
+    font-size:3rem;
 }
