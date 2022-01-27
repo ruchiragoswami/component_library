@@ -1,0 +1,66 @@
+body {
+    box-sizing: border-box;
+}
+
+.avatar-round {
+    border-radius: 50%;
+}
+
+.avatar-large {
+    width: 115px;
+    height: 115px;
+    border-radius: 15px;
+}
+
+.avatar-medium {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.avatar-small {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+}
+
+.avatar-text {
+    background-color: lightgreen;
+    color: purple;
+    text-align: center;
+    display: inline-block;
+}
+
+.avatar-text-lg {
+    font-size: 2.1rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+.avatar-text-md {
+    font-size: 1.6rem;
+    padding: 0.4rem;
+    border-radius: 10px;
+
+}
+
+.avatar-text-sm {
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+
+
+
+
+section {
+    margin: 3rem;
+}
+
+img, 
+span {
+    margin-right: 1rem; 
+}
+
+
+
