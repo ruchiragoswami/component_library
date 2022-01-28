@@ -1,4 +1,5 @@
 :root {
+
   --default-color: #f6ebf4;
   --primary-color: #301008;
   --secondary-color: #4cbfa6;
@@ -8,4 +9,5 @@
   --info-color: #A8D0E6;
   --success-color: #D1FAE5;
   --disable-color: lightgrey;
+
 }
