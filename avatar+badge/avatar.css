@@ -1,6 +1,5 @@
-body {
-    box-sizing: border-box;
-}
+@import "../for-import/reset.css";
+@import "../for-import/colors.css";
 
 .avatar-round {
     border-radius: 50%;
@@ -18,28 +17,24 @@ body {
     border-radius: 5px;
 }
 
-
 .avatar-large {
     width: 115px;
     height: 115px;
-
 }
 
 .avatar-medium {
     width: 90px;
     height: 90px;
-    /* border-radius: 10px; */
 }
 
 .avatar-small {
     width: 65px;
-    height: 65px;
-    /* border-radius: 5px; */
+    height: 65px;    
 }
 
 .avatar-text {
-    background-color: lightgreen;
-    color: purple;
+    background-color: var(--secondary-color);
+    color: var(--default-color);
     text-align: center;
     display: inline-block;
 }
@@ -54,7 +49,6 @@ body {
     font-size: 1.6rem;
     padding: 0.4rem;
     border-radius: 10px;
-
 }
 
 .avatar-text-sm {
@@ -62,7 +56,6 @@ body {
     padding: 0.3rem;
     border-radius: 5px;
 }
-
 
 section {
     margin: 3rem;
@@ -73,32 +66,30 @@ span {
     margin-right: 1rem;
 }
 
-/* Badge Styles */
 
+
+/* Badge Styles */
 .align-horizontal {
     display: inline-block;
-    margin-right: 1rem;
-/* border: 1px solid red; */
+    margin-right: 1rem;    
 }
 
 .badge-on-avatar-lg {
     position: relative;
-    width: 120px;
-    /* border: 1px solid red; */
+    width: 120px;    
 }
 
 .icon-top-lg {
     position: absolute;
     bottom: 10px;
-    right:5px;
+    right: 5px;
     font-size: 2rem;
-    color: red;
+    color: var(--primary-color);
 }
 
 .badge-on-avatar-md {
     position: relative;
-    width: 100px;
-    /* border: 1px solid red; */
+    width: 100px;   
 }
 
 .icon-top-md {
@@ -106,46 +97,39 @@ span {
     bottom: 5px;
     right: 5px;
     font-size: 2rem;
-    color: red;
+    color:var(--secondary-color);
 }
 
 
 .badge-on-avatar-sm {
-    position: relative;
-    /* width: 40px; */
-    /* border: 1px solid blue; */
+    position: relative;   
 }
 
 
 .icon-top-sm {
     position: absolute;
     bottom: 0px;
-    right: 5px;
-    /* font-size: px; */
-    color: red;
+    right: 5px;    
+    color: var(--accent-color);
 }
 
-.badge-on-icon  {
-    width: 4.5rem;
-    /* height: 100px; */
-    /* font-size: 2rem; */
-    /* border: 1px solid green;  */
-    position: relative; 
+.badge-on-icon {
+    width: 4.5rem;    
+    position: relative;
 }
 
 .num-icon {
     height: 1.5rem;
-    width: 1.5rem; 
-    position: absolute; 
+    width: 1.5rem;
+    position: absolute;
     top: 0;
-    right: 0; 
+    right: 0;
 }
 
 #icon-mail-large {
-    font-size:3rem;
+    font-size: 3rem;
 }
 
-
 #icon-text-large {
-    font-size:3rem;
+    font-size: 3rem;
 }
