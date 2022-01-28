@@ -79,11 +79,15 @@ span {
     width: 120px;    
 }
 
-.icon-top-lg {
-    position: absolute;
-    bottom: 10px;
+.icon-top {
+    bottom: 5px;
     right: 5px;
     font-size: 2rem;
+}
+
+.icon-top-lg {
+    position: absolute;
+    bottom: 10px;    
     color: var(--primary-color);
 }
 
@@ -93,10 +97,7 @@ span {
 }
 
 .icon-top-md {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    font-size: 2rem;
+    position: absolute;   
     color:var(--secondary-color);
 }
 
