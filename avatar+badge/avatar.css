@@ -8,7 +8,7 @@
 
 /* square avatar */
 .avatar-square-lg {
-    border-radius: 15px;
+    border-radius: 0.9rem;
 }
 
 /* square avatar medium size */
@@ -23,18 +23,18 @@
 
 /*size of avatar */
 .avatar-large {
-    width: 115px;
-    height: 115px;
+    width: 7.1rem; /*115px */
+    height: 7.1rem;
 }
 
 .avatar-medium {
-    width: 90px;
-    height: 90px;
+    width: 5.6rem; /*90px */
+    height: 5.6rem;
 }
 
 .avatar-small {
-    width: 65px;
-    height: 65px;    
+    width: 4rem; /*65px */
+    height: 4rem;    
 }
 
 /* avatar with text */
@@ -48,7 +48,7 @@
 .avatar-text-lg {
     font-size: 2.1rem;
     padding: 0.5rem;
-    border-radius: 15px;
+    border-radius: 0.9rem; /*15px */
 }
 
 .avatar-text-md {
@@ -77,16 +77,24 @@ span {
 
 /* Badge Styles */
 
+/* for container containing the badge on icons. Used to style this page and not actual badges.  */
+.arrange-container {   
+    display: flex; 
+    align-items: center;
+}
+
+
+
 /* puts icon and text next to each other */
 .align-horizontal {
-    display: inline-block;
-    margin-right: 1rem;    
+    display: flex; 
+    /* margin-right: 1rem;     */
 }
 
 
 .badge-on-avatar-lg {
     position: relative;
-    width: 120px;    
+    width: 7.5rem;    /*120px */
 }
 
 /* icon on top of avatar- different sizes */
@@ -104,7 +112,7 @@ span {
 
 .badge-on-avatar-md {
     position: relative;
-    width: 100px;   
+    width: 6.2rem;   /*100px */
 }
 
 .icon-top-md {
@@ -113,7 +121,8 @@ span {
 }
 
 .badge-on-avatar-sm {
-    position: relative;   
+    position: relative; 
+    width: 5rem;  
 }
 
 .icon-top-sm {
