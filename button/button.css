@@ -69,19 +69,23 @@ section {
     display: inline-block;
 }
 
-.btn-floating-action {
-    /* width: 3rem;
-    height: 3rem;  */
-    font-size: 2rem;
+.btn-floating-action {    
+    font-size: 1rem;
     border-radius: 50%;
     background-color: var(--accent-color);
     color: var(--default-color);
-    padding: 1rem; 
-    /* display: flex; */
+    padding: 1rem;     
     align-items: center;
     border: 1px solid var(--secondary-color);
 }
 
-/* .btn-floating-action>i {
-    margin: 0 auto; 
-} */
+.btn-floating-action:hover {
+    background-color: var(--secondary-color);
+}
+
+/* general hover class for buttons- users can use this hover class on any button they want to apply the hover state. Change background color to the one of your choice */
+
+.btn-for-hover:hover {    
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color); 
+}
