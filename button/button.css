@@ -1,7 +1,7 @@
 @import"../for-import/reset.css";
 @import"../for-import/colors.css";
 
-section {
+.general-style-section {
     margin-bottom: 2rem;
 }
 
