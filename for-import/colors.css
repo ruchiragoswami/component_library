@@ -1,18 +1,29 @@
-:root {--default-color: #17252A;
-    --primary-color: #3AAFA9;
-    --secondary-color: #DEF2F1;
+:root {
+    /*   --default-color:#1ac8ed; */
+    --primary-color: #3F0D12;
+    --secondary-color: #d3b99f;
+    --accent-color: #3F7D20;
     --error-color: #FEE2E2;
     --warning-color: #f0e7c3;
     --info-color: #A8D0E6;
+    --disable-color: lightgrey; 
+    
     
 }
 
 
 
-    /* --default-color:#F5B935;
+    /*  --default-color:#F5B935;
     --primary-color: #11ABC1;
     --secondary-color: #DEF2F1;
     --accent-color: #DF3062;
+    --error-color: #FEE2E2;
+    --warning-color: #f0e7c3;
+    --info-color: #A8D0E6;*/
+
+    /* --default-color: #17252A;
+    --primary-color: #3AAFA9;
+    --secondary-color: #DEF2F1;
     --error-color: #FEE2E2;
     --warning-color: #f0e7c3;
     --info-color: #A8D0E6; */
