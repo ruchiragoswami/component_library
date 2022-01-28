@@ -1,22 +1,27 @@
 @import "../for-import/reset.css";
 @import "../for-import/colors.css";
 
+/* round avatar */
 .avatar-round {
     border-radius: 50%;
 }
 
+/* square avatar */
 .avatar-square-lg {
     border-radius: 15px;
 }
 
+/* square avatar medium size */
 .avatar-square-md {
     border-radius: 10px;
 }
 
+/* square avatar small size */
 .avatar-square-sm {
     border-radius: 5px;
 }
 
+/*size of avatar */
 .avatar-large {
     width: 115px;
     height: 115px;
@@ -32,6 +37,7 @@
     height: 65px;    
 }
 
+/* avatar with text */
 .avatar-text {
     background-color: var(--secondary-color);
     color: var(--default-color);
@@ -57,6 +63,7 @@
     border-radius: 5px;
 }
 
+/* general styles to keep sections, images, span away from each other  */
 section {
     margin: 3rem;
 }
@@ -69,16 +76,20 @@ span {
 
 
 /* Badge Styles */
+
+/* puts icon and text next to each other */
 .align-horizontal {
     display: inline-block;
     margin-right: 1rem;    
 }
+
 
 .badge-on-avatar-lg {
     position: relative;
     width: 120px;    
 }
 
+/* icon on top of avatar- different sizes */
 .icon-top {
     bottom: 5px;
     right: 5px;
@@ -101,11 +112,9 @@ span {
     color:var(--secondary-color);
 }
 
-
 .badge-on-avatar-sm {
     position: relative;   
 }
-
 
 .icon-top-sm {
     position: absolute;
@@ -114,6 +123,7 @@ span {
     color: var(--accent-color);
 }
 
+/* styles for badge on icon */
 .badge-on-icon {
     width: 4.5rem;    
     position: relative;
