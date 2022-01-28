@@ -1,15 +1,9 @@
-
-
 :root {
-     --default-color: #fefefe; 
-    --primary-color: #080357;
-    --secondary-color:  #8D6A9F;
-    --accent-color: #AA4586;
+    --default-color: #f6ebf4;
+    --primary-color: #301008;
+    --secondary-color: #4cbfa6;
+    --accent-color: #ed0b70;
     --error-color: #FEE2E2;
     --warning-color: #f0e7c3;
     --info-color: #A8D0E6;
 }
-    
-  
-
-  
