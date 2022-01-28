@@ -9,8 +9,8 @@
     position: absolute;
     top: 1rem;
     left: 1rem; 
-    /* border: 1px solid red;  */
-    font-size: 3rem;
+    border: 1px solid red; 
+    font-size: 20rem;
 }
 
 .icon-on-image:hover {
