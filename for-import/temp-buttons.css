@@ -7,13 +7,11 @@
 
 .btn {
     padding: 10px;
-    width: 6rem; 
-    /* margin-right: 10px; */
+    width: 6rem;    
     font-weight: bold;
     border-radius: 5px;
     border: 0;
-    cursor: pointer
-
+    cursor: pointer;
 }
 
 .btn-accent {
@@ -26,6 +24,11 @@
     color: var(--default-color);
 }
 
+.btn-primary:hover{
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
 .btn-secondary {
     background-color: var(--secondary-color);
     color: var(--default-color);
@@ -33,7 +36,6 @@
 
 .btn-disabled {
     background-color: var(--disable-color);
-
 }
 
 .btn-accent-outlined {
@@ -41,12 +43,14 @@
     color: var(--accent-color);
 }
 
+.btn-accent-outlined:hover{
+    background-color: var(--secondary-color);
+}
 
 .btn-primary-outlined {
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
 }
-
 
 .btn-secondary-outlined {
     border: 2px solid var(--secondary-color);
@@ -59,8 +63,8 @@
 
 .btn-icon {
     display: flex;
-     align-items: center;
-     background-color: var(--default-color);
+    align-items: center;
+    background-color: var(--default-color);
 }
 
 .btn-icon>i {

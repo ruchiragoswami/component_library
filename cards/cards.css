@@ -7,11 +7,12 @@
 .card-top {
     position: relative;
 }
+
 .icon-on-image {
     position: absolute;
     top: 0.5rem;
     left: 1rem; 
-   color: var(--accent-color) ;
+    color: var(--accent-color) ;
     font-size: 1.5rem;
     cursor: pointer
 }
@@ -20,15 +21,13 @@
   color: var(--primary-color);    
 }
 
-
 .dismiss-on-card {
     position: absolute;
     top: 0.5rem;
     right: 0.5rem; 
     font-size: 1.3rem;
     color: var(--primary-color);
-    cursor: pointer
-
+    cursor: pointer;
 }
 
 .text-on-image {
@@ -46,10 +45,9 @@
 /* cards style */
 
 .cards {    
-    width: 21.8rem; /* 350px */
+    width: 21.8rem; 
     height: 30rem;   
-    padding: 0.7rem;
-    
+    padding: 0.7rem;    
     border-radius: 5px;
     text-align: center;
 }
@@ -77,21 +75,18 @@ a {
 }
 
 .card-vertical {
-height: 30rem; 
-width: 20rem;
-
+    height: 30rem; 
+    width: 20rem;
 }
 
 .img-horizontal {
-height:9rem;
-width: 17rem;
-
+    height:9rem;
+    width: 17rem;
 }
 
 .card-horizontal {
     height: 22rem; 
-    width: 30rem;
-    
+    width: 30rem;    
 }
 
 .primary-border {
@@ -107,18 +102,16 @@ width: 17rem;
 }
 
 .text-only{   
-    height: 16rem;
-    border: 1px solid red; 
+    height: 16rem;    
     border: 2px solid var(--accent-color);
 }
 .heading-text-only {
-margin-top: 4rem;
+    margin-top: 4rem;
 }
 
 /* text only card */
 .no-img, 
-.no-icon
- {
+.no-icon  {
     display: none;
 }
 
