@@ -13,10 +13,11 @@
     left: 1rem; 
    color: var(--accent-color) ;
     font-size: 1.5rem;
+    cursor: pointer
 }
 
 .icon-on-image:hover {
-  color: var(--default-color);    
+  color: var(--primary-color);    
 }
 
 
@@ -26,6 +27,8 @@
     right: 0.5rem; 
     font-size: 1.3rem;
     color: var(--primary-color);
+    cursor: pointer
+
 }
 
 .text-on-image {
@@ -121,4 +124,8 @@ margin-top: 4rem;
 
 .btn-mrgn-adjusted {
     margin-top: 1.8rem;    
+}
+
+.hovr-sec-color:hover{
+    border: 2px solid var(--secondary-color);
 }
