@@ -1,0 +1,155 @@
+@import "../for-import/reset.css";
+@import "../for-import/colors.css";
+
+/* round avatar */
+.avatar-round {
+    border-radius: 50%;
+}
+
+/* square avatar */
+.avatar-square-lg {
+    border-radius: 0.9rem;
+}
+
+/* square avatar medium size */
+.avatar-square-md {
+    border-radius: 10px;
+}
+
+/* square avatar small size */
+.avatar-square-sm {
+    border-radius: 5px;
+}
+
+/*size of avatar */
+.avatar-large {
+    width: 7.1rem; /*115px */
+    height: 7.1rem;
+}
+
+.avatar-medium {
+    width: 5.6rem; /*90px */
+    height: 5.6rem;
+}
+
+.avatar-small {
+    width: 4rem; /*65px */
+    height: 4rem;    
+}
+
+/* avatar with text */
+.avatar-text {
+    background-color: var(--secondary-color);
+    color: var(--default-color);
+    text-align: center;
+    display: inline-block;
+}
+
+.avatar-text-lg {
+    font-size: 2.1rem;
+    padding: 0.5rem;
+    border-radius: 0.9rem; /*15px */
+}
+
+.avatar-text-md {
+    font-size: 1.6rem;
+    padding: 0.4rem;
+    border-radius: 10px;
+}
+
+.avatar-text-sm {
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+
+/* general styles to keep sections, images, span away from each other  */
+section {
+    margin: 3rem;
+}
+
+img,
+span {
+    margin-right: 1rem;
+}
+
+
+
+/* Badge Styles */
+
+/* for container containing the badge on icons. Used to style this page and not actual badges.  */
+.arrange-container {   
+    display: flex; 
+    align-items: center;
+}
+
+
+
+/* puts icon and text next to each other */
+.align-horizontal {
+    display: flex; 
+    /* margin-right: 1rem;     */
+}
+
+
+.badge-on-avatar-lg {
+    position: relative;
+    width: 7.5rem;    /*120px */
+}
+
+/* icon on top of avatar- different sizes */
+.icon-top {
+    bottom: 5px;
+    right: 5px;
+    font-size: 2rem;
+}
+
+.icon-top-lg {
+    position: absolute;
+    bottom: 10px;    
+    color: var(--primary-color);
+}
+
+.badge-on-avatar-md {
+    position: relative;
+    width: 6.2rem;   /*100px */
+}
+
+.icon-top-md {
+    position: absolute;   
+    color:var(--secondary-color);
+}
+
+.badge-on-avatar-sm {
+    position: relative; 
+    width: 5rem;  
+}
+
+.icon-top-sm {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;    
+    color: var(--accent-color);
+}
+
+/* styles for badge on icon */
+.badge-on-icon {
+    width: 4.5rem;    
+    position: relative;
+}
+
+.num-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#icon-mail-large {
+    font-size: 3rem;
+}
+
+#icon-text-large {
+    font-size: 3rem;
+}
