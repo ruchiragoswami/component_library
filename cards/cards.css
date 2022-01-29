@@ -35,10 +35,10 @@
     font-weight: 700;
 }
 
+/* cards style */
 
-.cards {
-    /* border: 1px solid brown;  */
-    width: 350px;
+.cards {    
+    width: 21.8rem; /* 350px */
     height: 30rem;
     margin: 0 auto;
     padding: 0.7rem;
