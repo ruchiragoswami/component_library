@@ -1,5 +1,7 @@
 @import "../for-import/reset.css"; 
 @import "../for-import/colors.css";
+@import "../for-import/temp-buttons.css";
+@import "../for-import/typography.css";
 
 /* style for icon on top of image */
 .card-top {
@@ -30,6 +32,7 @@
     top: 1rem;
     left: 1rem; 
     color: var(--primary-color);
+    font-weight: 700;
 }
 
 
@@ -55,15 +58,6 @@
     border-radius: 5px;
 }
 
-/* p {
-    font-size: 0.9rem;
-} */
-/* 
-.cta-div {
-    display: flex;
-    justify-content: space-between;
-} */
-
 a {
     text-decoration: none;
     color: var(--color2);
@@ -71,16 +65,37 @@ a {
     font-size: 0.9rem;
 }
 
-/* .cta-icon {
-    width: 20px;
-    height: 20px;
-    margin-left: 0.5rem;
-    padding: 8px; */
-    /* border: 1px solid gold; 
-}*/
+.card-vertical {
+height: 33rem; 
+width: 22rem;
 
-.card-horizontal {
-    /* width: rem; */
 }
 
+.img-horizontal {
+height:10rem;
+width: 17rem;
 
+}
+
+.card-horizontal {
+    height: 25rem; 
+    width: 33rem;
+    
+}
+
+.primary-border {
+    border: 2px solid var(--primary-color);
+}
+
+.accent-border {
+    border: 2px solid var(--accent-color);
+}
+
+.card-text {
+    font-weight: 500;
+    line-height: 1.7rem;     
+}
+
+.text-only{
+    text-align: left;
+}
