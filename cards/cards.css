@@ -125,7 +125,3 @@ margin-top: 4rem;
 .btn-mrgn-adjusted {
     margin-top: 1.8rem;    
 }
-
-.hovr-sec-color:hover{
-    border: 2px solid var(--secondary-color);
-}
