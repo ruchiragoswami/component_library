@@ -39,8 +39,7 @@
 
 .cards {    
     width: 21.8rem; /* 350px */
-    height: 30rem;
-    margin: 0 auto;
+    height: 30rem;   
     padding: 0.7rem;
     box-shadow: 0 4px 8px 0 var(--shadow-color-light);    
     border-radius: 5px;
