@@ -35,19 +35,19 @@
 }
 
 .btn-accent-outlined {
-    border: 1px solid var(--accent-color);
+    border: 2px solid var(--accent-color);
     color: var(--accent-color);
 }
 
 
 .btn-primary-outlined {
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     color: var(--primary-color);
 }
 
 
 .btn-secondary-outlined {
-    border: 1px solid var(--secondary-color);
+    border: 2px solid var(--secondary-color);
     color: var(--secondary-color);
 }
 
@@ -66,7 +66,8 @@
 }
 
 .icon-btn-holder {
-    display: inline-block;
+    display: flex;
+
 }
 
 .btn-floating-action {    
@@ -76,7 +77,7 @@
     color: var(--default-color);
     padding: 1rem;     
     align-items: center;
-    border: 1px solid var(--secondary-color);
+    border: 2px solid var(--secondary-color);
 }
 
 .btn-floating-action:hover {
@@ -87,5 +88,5 @@
 
 .btn-for-hover:hover {    
     color: var(--accent-color);
-    border: 1px solid var(--accent-color); 
+    border: 2px solid var(--accent-color); 
 }
