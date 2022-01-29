@@ -1,12 +1,18 @@
 :root {
 
-    --default-color:  #f6ebf4; 
+    --default-color: #f6ebf4;
     --primary-color: #301008;
     --secondary-color: #4cbfa6;
     --accent-color: #ed0b70;
+
     --error-color: #FEE2E2;
     --warning-color: #f0e7c3;
     --info-color: #A8D0E6;
     --success-color: #D1FAE5;
+
     --disable-color: lightgrey;
+
+    --shadow-color-light: rgb(23, 23, 23, 0.5);
+    --shadow-color-dark: rgb(23, 23, 23, 3.5);
+
 }
