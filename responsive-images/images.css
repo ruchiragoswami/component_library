@@ -1,12 +1,1 @@
 @import "../for-import/reset.css";
-
-.secn-for-resp-img {
-    max-width: 1000px; 
-}
-
-.secn-for-resp-img img {
-    display: block;
-    width: 100%;
-    height: auto;
-    /* border: 2px solid red;  */
-}
