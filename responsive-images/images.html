@@ -12,19 +12,43 @@
 <body>
     <h1> Images </h1>
 
-    <h2> Responsive Image </h2>
 
-    <div class="container-resp-pic"> 
 
-    <picture>
-        <source srcset="" media="(max-width: 730px)">
-        <img src="" alt="hockey player" class="pic-resp">
-    </picture>
+    <div class="container-resp-pic">
+        <h2> Responsive Image </h2>
+
+        <img srcset="./images/flowers-small.jpg 375w, 
+                    ./images/flowers-medium.jpg 480w, 
+                    ./images/flowers-large.jpg 768w" 
+                src="flower-small.jpg" 
+                sizes="(max-width: 1024px) 15rem, 
+                (max-width: 568px) 100vw,
+                 400px"
+                        alt="flowers"
+        />
+
+
+      
+
+    </div>
+
+
+    <h2> Responsive Image with Art Direction </h2>
+
+    <div class="container-resp-pic">
+        <picture>
+            <source srcset="./images/player-medium.jpg" media="(min-width: 420px)">
+            <img src="./images/player-small.jpg" alt="hockey player" class="pic-resp">
+        </picture>
+    </div>
+
+
+
+<h2> Round Image </h2>
+
+<div> 
+    <img  class="round-pic"src="https://picsum.photos/id/1024/500/500" alt="eagle">
 </div>
-
-
-
-
 
 
 
