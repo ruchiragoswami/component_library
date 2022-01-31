@@ -3,21 +3,19 @@
 @import "../for-import/reset.css";
 
 .container-for-alignments {
-    /* border: 2px solid red;  */
-    width: 50%; 
+    width: 50%;
     margin: auto;
 }
 
 .all-headings>h1 {
     font-size: 1.8rem;
-    /* color: red;  */
 }
 
 .text-left {
     text-align: left;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -27,7 +25,7 @@
 
 .txt-sm {
     color: var(--accent-color);
-}   
+}
 
 .txt-gry {
     color: var(--shadow-color-dark);
