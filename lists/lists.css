@@ -1,0 +1,30 @@
+@import "../for-import/colors.css";
+@import "../for-import/reset.css";
+@import "../for-import/typography.css";
+
+.container-for-lists {
+    margin-bottom: 3rem;
+}
+
+.list-general {
+    list-style: none;
+    width: 10rem;
+}
+
+.list-general>li {
+    border-radius: var(--chosen-border-radius);
+}
+
+.list-simple {
+    margin-bottom: 1rem;
+}
+
+.list-simple>li {
+    margin-bottom: 1rem;
+}
+
+.list-stacked>li {
+    background-color: var(--default-color);
+    height: 1.5rem;
+    margin-bottom: 1rem;
+}
