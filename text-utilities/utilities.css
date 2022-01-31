@@ -2,3 +2,33 @@
 @import "../for-import/colors.css";
 @import "../for-import/reset.css";
 
+.container-for-alignments {
+    /* border: 2px solid red;  */
+    width: 50%; 
+    margin: auto;
+}
+
+.all-headings>h1 {
+    font-size: 1.8rem;
+    /* color: red;  */
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.txt-sm {
+    color: var(--accent-color);
+}   
+
+.txt-gry {
+    color: var(--shadow-color-dark);
+}
