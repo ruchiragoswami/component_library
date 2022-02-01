@@ -22,7 +22,10 @@
 
 .list-simple>li {
     margin-bottom: 1rem;
+    border-right: 1px solid var(--shadow-color-light);
+    border-bottom: 1px solid var(--shadow-color-light);
 }
+
 
 .list-stacked>li {
     background-color: var(--secondary-color);
