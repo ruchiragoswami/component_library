@@ -1,0 +1,34 @@
+.container-grid {
+    width: 50%;
+}
+
+/* for multiple items in grid, uncomment the two lines below */
+.two-item-grid {
+    display: grid;
+    grid-gap: 10px;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-template-rows: 0.1fr 1fr; */
+    grid-template-areas:
+        " sally tom"
+}
+
+#sally {
+    grid-area: sally;
+}
+
+#tom {
+    grid-area: tom;
+}
+
+/* Three Grid items */
+
+
+/* for multiple items in grid, uncomment the line below */
+.three-item-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 0.1fr 1fr; */
+    grid-template-areas:
+        " kelly nick josh"
+}
