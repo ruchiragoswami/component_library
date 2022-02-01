@@ -68,12 +68,12 @@ label {
 
 /* Styles for List style  Modal  */
 
-.dialog-items>i {
+.modal-items>i {
     margin-right: 1rem;
     padding: 0.5rem;
 }
 
-.dialog-items {
+.modal-items {
     margin: 1rem 0;
     display: flex;
     align-items: center;
@@ -83,6 +83,6 @@ label {
     text-decoration: none;
 }
 
-.dialog-items:hover {
+.modal-items:hover {
     background-color: var(--color3);
 }
