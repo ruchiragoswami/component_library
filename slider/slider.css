@@ -1,0 +1,19 @@
+@import "../for-import/typography.css";
+@import "../for-import/colors.css";
+@import "../for-import/reset.css";
+
+.slider {   
+    width: auto;   
+}
+
+.slider-label {
+    display: block;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.container-slider>span {
+    font-weight: 700;
+    font-size: 1.5rem; 
+}
