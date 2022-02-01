@@ -3,5 +3,10 @@
 @import "../for-import/reset.css";
 
 .slider {   
-    width: 40rem;   
+    width: auto;   
+}
+
+.container-slider>span {
+font-weight: 700;
+font-size: 1.5rem; 
 }
