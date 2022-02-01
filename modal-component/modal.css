@@ -6,12 +6,13 @@
 .heading-modal {
     text-align: center;
 }
-.container-modal {  
+
+.container-modal {
     width: 16rem;
     margin: 0 auto 3rem auto;
     padding: 1rem;
     border-radius: 5px;
-   box-shadow: 2px 2px 4px 2px var(--shadow-color-light);
+    box-shadow: 2px 2px 4px 2px var(--shadow-color-light);
 }
 
 .modal-actions {
@@ -46,40 +47,39 @@
     color: var(--color4);
 }
 
-label{
+label {
     display: block;
-    margin: 1rem auto; 
+    margin: 1rem auto;
     font-size: 1.5rem;
 }
 
 .scrolable-items>label>input {
-    margin-right: 1rem; 
+    margin-right: 1rem;
 }
 
 .scrolable-items {
     height: 90px;
-    overflow: auto;  
-    margin: 1rem 0;   
-    padding: 1rem 0; 
-}   
+    overflow: auto;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
 
 
 
 /* Styles for List style  Modal  */
 
-
 .dialog-items>i {
-    margin-right: 1rem ;  
-    padding:  0.5rem; 
+    margin-right: 1rem;
+    padding: 0.5rem;
 }
 
 .dialog-items {
-    margin: 1rem 0;    
-    display: flex; 
-    align-items: center;    
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
     font-size: 1.5rem;
-    margin: 1rem;  
-    color: var(--primary-color);    
+    margin: 1rem;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
