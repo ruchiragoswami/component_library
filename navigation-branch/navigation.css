@@ -1,0 +1,67 @@
+@import "../for-import/colors.css";
+@import "../for-import/reset.css";
+@import "../for-import/typography.css";
+
+
+
+.container-for-nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-navigation-items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+
+.container-navigation-items>a>li {
+    width: 5rem;
+    text-align: center;
+    margin-right: auto;
+}
+
+.container-logo {
+    padding: 1rem;
+   border: 1px solid var(--accent-color);   
+}
+
+.container-navigation-items>a {
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    text-align: center;
+    margin-left: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+.container-navigation-items>a:hover {
+    background-color: var(--default-color);
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+/* Rating Styles */
+
+.container-for-rating {
+    margin-top: 5rem; 
+}
+
+.general-rating {
+    margin-top: 1rem; 
+    margin-bottom: 2rem; 
+}
+
+.rating-rank {
+    font-weight: 700;
+}
+
+.general-rating>i,
+.rating-rank>i {
+    color: var(--accent-color);
+}
