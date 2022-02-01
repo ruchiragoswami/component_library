@@ -1,0 +1,7 @@
+@import "../for-import/typography.css";
+@import "../for-import/colors.css";
+@import "../for-import/reset.css";
+
+.slider {   
+    width: 40rem;   
+}
