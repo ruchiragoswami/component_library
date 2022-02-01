@@ -1,0 +1,32 @@
+@import "../for-import/typography.css";
+@import "../for-import/colors.css";
+@import "../for-import/reset.css";
+
+.container-for-alignments {
+    width: 50%;
+    margin: auto;
+}
+
+.all-headings>h1 {
+    font-size: 1.8rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.txt-sm {
+    color: var(--accent-color);
+}
+
+.txt-gry {
+    color: var(--shadow-color-dark);
+}
