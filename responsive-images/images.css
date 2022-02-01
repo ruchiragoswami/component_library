@@ -1,0 +1,36 @@
+@import "../for-import/reset.css";
+
+
+.container-resp-pic {    
+    padding: 1rem;    
+}
+
+.general-responsive {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0 auto;
+}
+
+picture {
+    margin: 0 auto;
+}
+
+.pic-resp {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media (min-width: 350px) {
+    .pic-resp {
+        width: 450px;
+    }
+}
+
+.round-pic {
+    border-radius: 50%;
+}
