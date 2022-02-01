@@ -45,3 +45,23 @@
     border: 1px solid var(--accent-color);
     color: var(--accent-color);
 }
+
+/* Rating Styles */
+
+.container-for-rating {
+    margin-top: 5rem; 
+}
+
+.general-rating {
+    margin-top: 1rem; 
+    margin-bottom: 2rem; 
+}
+
+.rating-rank {
+    font-weight: 700;
+}
+
+.general-rating>i,
+.rating-rank>i {
+    color: var(--accent-color);
+}
