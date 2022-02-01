@@ -19,7 +19,10 @@
   --shadow-color-dark: rgb(23, 23, 23, 3.5);
 
 
-  /* border radius variable */
-  --chosen-border-radius: 5px; 
+
+   /* border radius variable */
+  --chosen-border-radius: 5px;
+  --error-color-dark: red; 
+
 
 }
