@@ -18,8 +18,18 @@
   --shadow-color-light: rgb(23, 23, 23, 0.5);
   --shadow-color-dark: rgb(23, 23, 23, 3.5);
 
+<<<<<<< HEAD
   --error-color-dark: red; 
 
   /* border radius variable  */
   --chosen-border-radius: 5px; 
+=======
+--error-color-dark: red; 
+
+   /* border radius variable */
+  --chosen-border-radius: 5px;
+  
+
+
+>>>>>>> aa612791a21839919a99ca97b39dbc1a74d30678
 }

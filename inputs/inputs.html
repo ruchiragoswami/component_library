@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+    <link rel="stylesheet" href="./inputs.css">
+</head>
+
+<body>
+    <h1> Inputs </h1>
+    
+    <section class="sec-for-input">
+        <div class="input-group">
+            <label for=""> Text Input </label>
+            <textarea class="txt-input txt-area" cols="30" rows="10" placeholder="Type here... "></textarea>
+        </div>
+    </section>
+
+    <section class="sec-for-input">
+        <div class="input-group">
+            <label>
+                Enter a number between 0 and 110:
+            </label>
+            <input class="txt-input txt-validate" type="number" min="0" max="110" placeholder="Number" />
+
+        </div>
+    </section>
+
+    <section class="sec-for-input">
+        <div class="">
+            <div class="input-group">
+                <label>Username * </label>
+                <input type="text">
+            </div>
+
+            <div class="input-group error-occur">
+                <label>Password * </label>
+                <input type="text">
+                <div class="message-error">
+                    Incorrect Password. Please try again.
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
