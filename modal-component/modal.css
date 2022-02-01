@@ -1,0 +1,88 @@
+@import "../for-import/typography.css";
+@import "../for-import/colors.css";
+@import "../for-import/reset.css";
+
+
+.heading-modal {
+    text-align: center;
+}
+
+.container-modal {
+    width: 16rem;
+    margin: 0 auto 3rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 2px var(--shadow-color-light);
+}
+
+.modal-actions {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: right;
+    border-top: 1px solid var(--disable-color);
+    height: 10%;
+}
+
+.modal-action-all {
+    margin: 0 1rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 1rem 0.5rem;
+    text-decoration: none;
+}
+
+.modal-action-all:hover {
+    background-color: var(--shadow-color-light);
+    border-radius: 5px;
+}
+
+.modal-text {
+    height: 20%;
+    padding-bottom: 1rem;
+    border-bottom: var(--primary-color);
+}
+
+/* ****** Styles for Confirmatin dialog ******** */
+.scrolable-items {
+    color: var(--color4);
+}
+
+label {
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+}
+
+.scrolable-items>label>input {
+    margin-right: 1rem;
+}
+
+.scrolable-items {
+    height: 90px;
+    overflow: auto;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+
+
+/* Styles for List style  Modal  */
+
+.modal-items>i {
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+
+.modal-items {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.modal-items:hover {
+    background-color: var(--color3);
+}
