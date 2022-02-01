@@ -2,8 +2,6 @@
 @import "../for-import/reset.css";
 @import "../for-import/typography.css";
 
-
-
 .container-snackbar {
     position: relative;    
     height: 7.5rem;
