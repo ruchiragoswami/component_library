@@ -1,0 +1,16 @@
+.container-grid {
+    width: 50%;
+}
+
+.two-item-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "grid-two grid-two";
+}
+
+.three-item-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);   
+    grid-template-areas: "grid-three grid-three";
+}
