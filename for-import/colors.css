@@ -1,7 +1,7 @@
 :root {
 
     --default-color: #f6ebf4;
-    --primary-color: #301008;
+    --primary-color:#4c65bf ;
     --secondary-color: #4cbfa6;
     --accent-color: #ed0b70;
 
@@ -16,20 +16,11 @@
     --shadow-color-dark: rgb(23, 23, 23, 3.5);
 /* 
   --shadow-color-light: rgb(23, 23, 23, 0.5);
-  --shadow-color-dark: rgb(23, 23, 23, 3.5); */
+  --shadow-color-dark: rgb(23, 23, 23, 3.5); 
+  #301008*/
 
-<<<<<<< HEAD
   --error-color-dark: red; 
 
   /* border radius variable  */
   --chosen-border-radius: 5px; 
-=======
---error-color-dark: red; 
-
-   /* border radius variable */
-  --chosen-border-radius: 5px;
-  
-
-
->>>>>>> aa612791a21839919a99ca97b39dbc1a74d30678
 }

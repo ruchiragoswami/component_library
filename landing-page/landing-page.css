@@ -1,0 +1,23 @@
+@import "../for-import/colors.css";
+@import"../for-import/reset.css";
+@import "../for-import/typography.css";
+@import "../for-import/temp-buttons.css";
+
+.wrapper-homepage {
+    max-width: 56rem;    
+    padding: 2rem; 
+    margin-right:  auto;   
+    margin-left: auto; 
+    margin-top: 7rem; 
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.btn-landing-page {
+    margin-top: 4rem ;
+}
+
+.homepage-span {
+    color: var(--accent-color);
+}
