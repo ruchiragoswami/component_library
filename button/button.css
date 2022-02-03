@@ -87,6 +87,6 @@
 /* general hover class for buttons- users can use this hover class on any button they want to apply the hover state. Change background color to the one of your choice */
 
 .btn-for-hover:hover {    
-    color: var(--accent-color);
+    /* color: var(--accent-color); */
     border: 2px solid var(--accent-color); 
 }
