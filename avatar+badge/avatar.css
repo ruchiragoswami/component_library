@@ -88,6 +88,7 @@ span {
 /* puts icon and text next to each other */
 .align-horizontal {
     display: flex; 
+    margin: 0 auto;
     /* margin-right: 1rem;     */
 }
 
@@ -136,6 +137,7 @@ span {
 .badge-on-icon {
     width: 4.5rem;    
     position: relative;
+    margin: 0 auto;
 }
 
 .num-icon {
