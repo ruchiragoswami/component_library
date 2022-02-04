@@ -1,0 +1,27 @@
+@import "../../for-import/main.css";
+
+.wrapper-doc {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.embed-wrapper {
+    width: auto;
+    height: auto;
+    margin: 2rem auto 1rem auto;
+    overflow-x: auto;
+    overflow-y: auto ;
+}
+
+iframe {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    .embed-wrapper {
+        width: auto;
+        height: auto;
+    }
+}
