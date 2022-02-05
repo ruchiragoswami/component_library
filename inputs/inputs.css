@@ -36,7 +36,7 @@
     color: var(--error-color-dark);
 }
 
-.error-occur>label>input {
+.error-occur>input {
     background-color: var(--error-color);
     border: 1px solid var(--error-color-dark);
 }
