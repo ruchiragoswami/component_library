@@ -4,14 +4,14 @@
 @import "../for-import/colors.css";
 
 .container-for-alignments {
-    width: 50%;
+    width: 100%;
     margin: auto;
+    /* border: 2px solid var(--secondary-color);  */
 }
 
 .all-headings>h1 {
     font-size: 1.8rem;    
 }
-
 
 .all-headings {  
     color: var(--primary-color);
@@ -35,4 +35,10 @@
 
 .txt-gry {
     color: var(--shadow-color-dark);
+}
+
+@media only screen and (min-width: 600px) {
+    .container-for-alignments { 
+      max-width: 700px;
+    }
 }
