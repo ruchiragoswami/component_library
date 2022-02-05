@@ -1,23 +1,21 @@
-/* menu bar */
+/* menu bar 
 
 .thinzyNav {
-    /* border: 1px solid red;   */
-    display: none;
+    /* border: 1px solid red;   display: none;
 }
 
 .thinzyNav>ul {
     list-style: none;
-    /* margin-top: 0; */
-    /* display: none; */
+    /* margin-top: 0; 
 }
 
 #menu-btn {
     width: 2rem;
     font-size: 2rem;
     font-weight: 800;
-    /* text-align: right; */
+    /* text-align: right; 
     padding: 0 1rem;
-    /* border: 1px solid blue; */
+    /* border: 1px solid blue;
     margin-bottom: 0;
     cursor: pointer;
     color: var(--primary-color);
