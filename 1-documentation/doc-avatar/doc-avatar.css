@@ -76,17 +76,12 @@ iframe {
     transform: translateY(0);
 }
 
-
-
-
 @media only screen and (min-width: 600px) {
     .embed-wrapper {
         width: 80%;
         height: auto;
     }
 }
-
-
 
 @media only screen and (min-width: 890px) {
     .menu {
