@@ -11,8 +11,7 @@
     height: auto;
     margin: 2rem auto 1rem auto;
     overflow-x: auto;
-    overflow-y: auto ;
-    /* border: 1px solid red;  */
+    overflow-y: auto ;   
 }
 
 iframe {
