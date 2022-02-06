@@ -27,8 +27,8 @@ iframe {
     top: 1rem;
     right: 1rem;
     padding: 2px;    
-    border: black solid 1px;    
-    background-color: black;
+    border: var(--primary-color)solid 1px;    
+    background-color: var(--primary-color);
     color: var(--default-color);
     font-weight: 900;
     cursor: pointer;    
@@ -40,7 +40,7 @@ iframe {
 
 .closeIcon>i {
     color: var(--default-color);
-    background-color: black;
+    background-color: var(--primary-color);
 }
 
 .menuIcon {
@@ -55,7 +55,7 @@ iframe {
     left: 0;
     right: 0;
     z-index: 99;
-    background: var(--shadow-color-dark);
+    background: var(--primary-color);
     color: white;
     list-style: none;
     padding: 4rem 2rem;
