@@ -27,7 +27,7 @@ iframe {
     top: 1rem;
     right: 1rem;
     padding: 2px;    
-    border: var(--primary-color)solid 1px;    
+    border: var(--primary-color) solid 1px;    
     background-color: var(--primary-color);
     color: var(--default-color);
     font-weight: 900;
@@ -89,4 +89,44 @@ iframe {
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* .hamburger, 
+    .menuIcon,
+    .closeIcon {
+        display: none; 
+    }
+
+.thinzyNav {
+    position:fixed;
+    top: 50%;
+    left: 0; 
+    
+}
+
+   
+    .menu {
+        display: block;
+         position: static; 
+         margin-top: 5rem;
+         width: 10rem;
+         text-align: right;
+         background-color: transparent ;
+         color: var(--primary-color);
+         border-right: 1px solid var(--primary-color);
+        
+    }
+
+    .wrapper-doc {
+        display :grid;  
+        
+        grid-template-areas:  "header main main" ;
+                                     
+
+        
+
+    }
+ */
+
+
+
 }

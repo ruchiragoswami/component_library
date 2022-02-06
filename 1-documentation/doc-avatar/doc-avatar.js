@@ -3,6 +3,11 @@ const menuItems = document.querySelectorAll(".menuItem");
 const hamburger= document.querySelector(".hamburger");
 const closeIcon= document.querySelector(".closeIcon");
 const menuIcon = document.querySelector(".menuIcon");
+const thinzyNav = document.querySelector(".thinzyNav");
+
+if ( screen.width >= '890px') {
+  thinzyNav.style.display ='block'; 
+}
 
 document.onload = function showNo() {
     closeIcon.style.display = "none"; 
