@@ -3,6 +3,10 @@
 @import "../for-import/temp-buttons.css";
 @import "../for-import/typography.css";
 
+.cards{
+    margin: 0 auto; 
+}
+
 /* style for icon on top of image */
 .card-top {
     position: relative;
@@ -24,7 +28,7 @@
 .dismiss-on-card {
     position: absolute;
     top: 0.5rem;
-    right: 0.5rem; 
+    right: 0.25rem; 
     font-size: 1.3rem;
     color: var(--primary-color);
     cursor: pointer;

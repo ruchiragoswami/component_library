@@ -2,11 +2,11 @@
 @import "../for-import/reset.css";
 @import "../for-import/typography.css";
 
-.container-snackbar {
-    position: relative;    
-    height: 7.5rem;
-    width: 45rem;
+.container-snackbar {  
+    height: 7.5rem;    
     margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .snackbar {
@@ -18,13 +18,12 @@
     padding: 1rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    position: absolute;   
+    align-items: center;    
 }
 
 .retry-action,
 .message-snackbar {
-    margin-right: 4rem;
+    /* margin-right: 4rem; */
     padding: 1rem;   
 }
 
@@ -41,4 +40,11 @@
 
 .snackbar-hover-effect:hover {
    color: var(--secondary-color);
+}
+
+
+@media only screen and (min-width: 600px) {
+.container-snackbar {
+    width: 30rem;
+}
 }

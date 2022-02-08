@@ -16,12 +16,15 @@
     justify-content: space-between;
     list-style: none;
     text-align: center;
+    flex-direction: column;
+    /* height: 12 */
 }
 
 .container-navigation-items>a>li {
     width: 5rem;
     text-align: center;
     margin-right: auto;
+    
 }
 
 .container-logo {
@@ -31,13 +34,14 @@
 
 .container-navigation-items>a {
     text-decoration: none;
-    background-color: var(--secondary-color);
-    padding: 1rem;
+    background-color: var(--primary-color);
+    padding: rem;
     text-align: center;
     margin-left: 1rem;
     border-radius: 5px;
     font-weight: bold;
-    color: var(--accent-color);
+    color: var(--default-color);
+    height: 1rem; 
 }
 
 .container-navigation-items>a:hover {

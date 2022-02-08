@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Input </title>
+    <link rel="stylesheet" href="../doc-styles.css">
+</head>
+
+<body>
+    <div class="wrapper-doc">
+        <h1> Inputs </h1>
+        <section>
+            <h2>  Inputs </h2>
+            <section class="sec-for-input">
+                <div class="input-group">
+                    <label for=""> Text Input </label>
+                    <textarea class="txt-input txt-area" cols="30" rows="10" placeholder="Type here... "></textarea>
+                </div>
+            </section>
+
+            <div class="embed-wrapper">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=592&ds=true&dsyoff=21px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522sec-for-input%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253E%2520Text%2520Input%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522txt-input%2520txt-area%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520cols%253D%252230%2522%2520rows%253D%252210%2522%2520placeholder%253D%2522Type%2520here...%2520%2522%253E%2509%2509%2509%2520%2520%2520%253C%252Ftextarea%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    style="width: 592px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </section>
+
+
+        <section>
+            <h2> Number Input </h2>
+            <section class="sec-for-input">
+                <div class="input-group">
+                    <label>
+                        Enter a number between 0 and 110:
+                    </label>
+                    <input class="txt-input txt-validate" type="number" min="0" max="110" placeholder="Number" />
+
+                </div>
+            </section>
+            <div class="embed-wrapper">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=652&ds=true&dsyoff=21px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522sec-for-input%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Enter%2520a%2520number%2520between%25200%2520and%2520110%253A%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522txt-input%2520txt-validate%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509type%253D%2522number%2522%2520min%253D%25220%2522%2520max%253D%2522110%2522%2520placeholder%253D%2522Number%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                style="width: 652px; height: 241px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+        </section>
+
+
+        <section>
+            <h2> Input with error </h2>
+            <section class="sec-for-input">
+                <div class="">
+                    <div class="input-group">
+                        <label>Username * </label>
+                        <input type="text">
+                    </div>
+
+                    <div class="input-group error-occur">
+                        <label>Password * </label>
+                        <input type="text">
+                        <div class="message-error">
+                            Incorrect Password. Please try again.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="embed-wrapper">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=619&ds=true&dsyoff=21px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522sec-for-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EUsername%2520*%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2520error-occur%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EPassword%2520*%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522message-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Incorrect%2520Password.%2520Please%2520try%2520again.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E"
+                style="width: 591px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>

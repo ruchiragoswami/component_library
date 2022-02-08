@@ -4,11 +4,14 @@
 
 .container-for-lists {
     margin-bottom: 3rem;
+    text-align: center;    
 }
 
 .list-general {
     list-style: none;
-    width: 10rem;
+    width: 10rem; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .list-general>li {

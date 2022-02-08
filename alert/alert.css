@@ -6,10 +6,10 @@
     height: 3.1rem;
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 5px; 
-    color: var(--primary-color);
+    color: var(--primary-color);    
 }
 
 

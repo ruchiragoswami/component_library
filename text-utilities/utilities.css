@@ -1,14 +1,20 @@
 @import "../for-import/typography.css";
-@import "../for-import/colors.css";
+/* @import "../for-import/colors.css"; */
 @import "../for-import/reset.css";
+@import "../for-import/colors.css";
 
 .container-for-alignments {
-    width: 50%;
+    width: 100%;
     margin: auto;
+    /* border: 2px solid var(--secondary-color);  */
 }
 
 .all-headings>h1 {
-    font-size: 1.8rem;
+    font-size: 1.8rem;    
+}
+
+.all-headings {  
+    color: var(--primary-color);
 }
 
 .text-left {
@@ -29,4 +35,10 @@
 
 .txt-gry {
     color: var(--shadow-color-dark);
+}
+
+@media only screen and (min-width: 600px) {
+    .container-for-alignments { 
+      max-width: 700px;
+    }
 }

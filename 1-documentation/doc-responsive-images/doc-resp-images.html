@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Responsive-Images </title>
+    <link rel="stylesheet" href="../doc-styles.css">
+</head>
+
+<body>
+    <div class="wrapper-doc">
+        <h1> Images </h1>
+
+        <section>
+            <h2> Responsive Image 1 </h2>
+            <div class="container-resp-pic">
+                <img src="https://picsum.photos/id/110/500/400" alt="open ground" class="general-responsive">
+            </div>
+
+            <div class="embed-wrapper">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=458&ds=true&dsyoff=21px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container-resp-pic%2522%253E%250A%2520%2520%2509%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522open%2520ground%2522%2520class%253D%2522general-responsive%2522%253E%250A%253C%252Fdiv%253E"
+                    style="width: 552px; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2> Responsive Image 2 </h2>
+            <div class="container-resp-pic">
+                <picture>
+                    <source srcset="../../assets/player-medium.jpg" media="(min-width: 700px)">
+                    <img src="../../assets/player-small.jpg" alt="hockey player" class="pic-resp">
+                </picture>
+            </div>
+
+
+            <div class="embed-wrapper">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=458&ds=true&dsyoff=21px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cpicture%253E%250A%2520%2520%2520%2520%253Csource%2520srcset%253D%2522%2522%2520media%253D%2522%28min-width%253A%25201400px%29%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520class%253D%2522pic-resp%2522%253E%250A%253C%252Fpicture%253E"
+                    style="width: 460px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2> Round Image </h2>
+            <div>
+                <img class="round-pic" src="https://picsum.photos/id/434/400/400" alt="eagle">
+            </div>
+
+            <div class="embed-wrapper">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=458&ds=true&dsyoff=21px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2509%253Cimg%2520class%253D%2522round-pic%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F434%252F400%252F400%2522%2520%250A%2509%2509alt%253D%2522eagle%2522%253E%250A%253C%252Fdiv%253E"
+                    style="width: 628px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>

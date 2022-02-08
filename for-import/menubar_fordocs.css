@@ -1,0 +1,62 @@
+/* menu bar 
+
+.thinzyNav {
+    /* border: 1px solid red;   display: none;
+}
+
+.thinzyNav>ul {
+    list-style: none;
+    /* margin-top: 0; 
+}
+
+#menu-btn {
+    width: 2rem;
+    font-size: 2rem;
+    font-weight: 800;
+    /* text-align: right; 
+    padding: 0 1rem;
+    /* border: 1px solid blue;
+    margin-bottom: 0;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+
+@media only screen and (min-width: 890px) {
+    #menu-btn {
+        display: none;
+    }
+
+    .thinzyNav {
+        display: block;
+        position: fixed;
+        top: 4%;
+    }
+
+    .menuList {       
+        text-align: left;
+        padding: 1rem;
+        margin-right: 5rem;
+        width: 200px;
+        text-align: right;        
+        border-right: 2px solid var(--primary-color);
+        color: var(--primary-color);       
+    }
+
+    .menuList>a {       
+        font-size: 1.5rem;        
+        font-weight: 800;
+    }
+
+    .menuList>a:hover {        
+        color: var(--accent-color);
+    }
+}
+
+.open-menu {
+    display: block;
+}
+
+.close-menu {
+    display: none;
+}
