@@ -63,7 +63,6 @@ iframe {
     font-size: 1.2rem;
 }
 
-
 .menuItem {
     font-size: 1.2rem;
 }
@@ -90,43 +89,24 @@ iframe {
         margin-right: auto;
     }
 
-    /* .hamburger, 
+    .hamburger, 
     .menuIcon,
     .closeIcon {
         display: none; 
     }
-
-.thinzyNav {
-    position:fixed;
-    top: 50%;
-    left: 0; 
-    
-}
-
-   
-    .menu {
-        display: block;
-         position: static; 
-         margin-top: 5rem;
+  
+    .menu {       
+         position: fixed;
+         transform:none;
+         transition: none;     
+         left: 0;        
+         margin: 1rem ;    
          width: 10rem;
          text-align: right;
          background-color: transparent ;
          color: var(--primary-color);
          border-right: 1px solid var(--primary-color);
-        
+         font-size: 1.2rem;
+         font-weight: 600;
     }
-
-    .wrapper-doc {
-        display :grid;  
-        
-        grid-template-areas:  "header main main" ;
-                                     
-
-        
-
-    }
- */
-
-
-
 }
