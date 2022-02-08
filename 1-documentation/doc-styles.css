@@ -92,7 +92,7 @@ iframe {
     }
 }
 
-@media only screen and (min-width: 890px) {
+@media only screen and (min-width: 1000px) {
     .menu {
         width: 50%;
         margin-left: auto;
@@ -110,7 +110,7 @@ iframe {
         transform: none;
         transition: none;
         left: 0;
-        margin: 1rem;
+        margin: 1rem 3rem;
         width: 10rem;
         text-align: right;
         background-color: transparent;
