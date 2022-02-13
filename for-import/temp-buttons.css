@@ -3,6 +3,10 @@
 
 .general-style-section {
     margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+     width: 55%;
+     /* border: 2px solid blue; */
 }
 
 .btn {
@@ -68,16 +72,14 @@
     display: flex;
     justify-content:space-around;
     align-items: center;
-    background-color: var(--default-color);
-    /* margin: 0 auto;  */
+    background-color: var(--default-color);    
     width: 7rem; 
     padding: 1rem;
 }
 
 .btn-icon>i  {
     margin-right: 10px;
-    text-align: center;
-   
+    text-align: center;   
 }
 
 .icon-btn-holder {
