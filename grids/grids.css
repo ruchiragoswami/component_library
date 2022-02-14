@@ -9,8 +9,8 @@
 
 .three-item-grid {
     display: grid;
-    grid-gap: 10px;    
-    grid-template-areas: "grid-three",  
+    grid-gap: 10px;        
+    grid-template-areas: "grid-three "  ,  
                         "grid-three",
                         "grid-three";
 }

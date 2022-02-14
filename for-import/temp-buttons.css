@@ -5,8 +5,7 @@
     margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
-     width: 55%;
-     /* border: 2px solid blue; */
+     width: 55%;     
 }
 
 .btn {
@@ -105,9 +104,6 @@
     background-color: var(--secondary-color);
 }
 
-/* general hover class for buttons- users can use this hover class on any button they want to apply the hover state. Change background color to the one of your choice */
-
-.btn-for-hover:hover {    
-    /* color: var(--accent-color); */
+.btn-for-hover:hover {      
     border: 2px solid var(--accent-color); 
 }
