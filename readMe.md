@@ -1,6 +1,19 @@
-# Component Library
+# thinzy
 
-## Work in progress, even the deployed version on Netlify is not ready at the moment
+A minimal, open source, ready-to-use CSS component library
 
-1. Making different components
-2. Using HTML, CSS for now
+## Features
+
+1. Lightweght components with minimal design
+2. Ready-to-use components
+3. Can be customized by users
+
+## How to use?
+
+Link the CSS file below with your HTML file
+
+<link rel="stylesheet" href="https://thinzy.netlify.app/for-import/main.css">
+
+## Documentation
+
+For complete documentation, visit [thinzy](https://thinzy.netlify.app)
