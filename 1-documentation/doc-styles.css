@@ -1,7 +1,5 @@
 @import "../../for-import/main.css";
 
-
-
 /* Menu styles */
 .hamburger {
     position: fixed;
@@ -68,8 +66,7 @@
 .wrapper-doc {
     text-align: center;
     margin: 0;
-    padding: 0;
-    margin-left: 12rem;    
+    padding: 0;      
 }
 
 .embed-wrapper {
@@ -93,7 +90,10 @@ iframe {
     }
 }
 
-@media only screen and (min-width: 1000px) {     
+@media only screen and (min-width: 1000px) {    
+    .wrapper-doc {
+        margin-left: 12rem; 
+    }
 
     .hamburger,
     .menuIcon,
