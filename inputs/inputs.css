@@ -61,8 +61,7 @@
 }
 
 .product-filters>section>label {
-    font-size: 1rem;
-    /* width: 40%;     */
+    font-size: 1rem;  
     margin-left: auto;
     margin-right: auto; 
 }
