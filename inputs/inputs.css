@@ -3,20 +3,15 @@
 @import "../for-import/typography.css";
 
 .sec-for-input {
-    margin: 3rem auto;
-    /* width: 60%; */
-    /* border: 1px solid green; */
-  
-}
+    margin: 3rem auto;   
+  }
 
 .input-group {
-    margin: 0 auto;
-    /* padding: 1rem; */
+    margin: 0 auto;    
     display: flex;
     flex-direction: column;
-    width: 20rem;    
-    /* border: 2px solid blue;  */
-}
+    width: 20rem;  
+ }
 
 
 .input-group>label {
@@ -45,4 +40,28 @@
     margin: 0.8rem auto;
     font-size: 0.8rem;
     font-weight: 700;
+}
+
+
+.product-filters {
+    text-align: left;
+    padding-left: 2rem;
+    margin: 0 auto;     
+    width: 50%; 
+}
+
+.product-filters>h3 {
+    text-align: left;
+}
+
+.product-filters>section {
+    margin-left: auto;
+    margin-right: auto;    
+    font-weight: 700;
+}
+
+.product-filters>section>label {
+    font-size: 1rem;  
+    margin-left: auto;
+    margin-right: auto; 
 }
